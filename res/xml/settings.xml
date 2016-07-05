@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/title_quick_start"
+        android:summary="@string/summary_quick_start"
+        android:title="@string/title_quick_start" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/title_exit_button"
+        android:summary="@string/summary_exit_button"
+        android:title="@string/title_exit_button" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/title_exit_confirmation"
+        android:summary="@string/summary_exit_confirmation"
+        android:title="@string/title_exit_confirmation" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/title_pinch_zoom"
+        android:summary="@string/summary_pinch_zoom"
+        android:title="@string/title_pinch_zoom" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/title_desktop_view"
+        android:summary="@string/summary_desktop_view"
+        android:title="@string/title_desktop_view" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/title_clear_history"
+        android:summary="@string/summary_clear_history"
+        android:title="@string/title_clear_history" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/title_clear_cache"
+        android:summary="@string/summary_clear_cache"
+        android:title="@string/title_clear_cache" />
+
+</PreferenceScreen>

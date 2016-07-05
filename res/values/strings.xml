@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Manifest -->
+    <string name="app_name">RAndroid Browser</string>
+    <string name="app_settings">Settings</string>
+
+    <!-- Settings Title -->
+    <string name="title_quick_start">Quick Start</string>
+    <string name="title_exit_button">Exit Button</string>
+    <string name="title_exit_confirmation">Exit Confirmation</string>
+    <string name="title_pinch_zoom">Pinch Zoom</string>
+    <string name="title_desktop_view">Desktop View</string>
+    <string name="title_clear_history">Clear History</string>
+    <string name="title_clear_cache">Clear Cache</string>
+    
+    <!-- Settings Summary -->
+    <string name="summary_quick_start">To skip splash screen and open RAndroid browser.</string>
+	<string name="summary_exit_button">To show/hide exit button.</string>
+	<string name="summary_exit_confirmation">To show/hide confirmation before exit.</string>
+	<string name="summary_pinch_zoom">To enable/disable pinch zoom on webpage.</string>
+	<string name="summary_desktop_view">To enable/disable desktop view.</string>
+	<string name="summary_clear_history">To clear the browser history on exit.</string>
+	<string name="summary_clear_cache">To clear the cache data on exit.</string>
+	
+    <!-- About Page -->
+    <string name="about_app_copyright">Developed by Ravikanth</string>
+    <string name="about_app_title_description">App Description :</string>
+    <string name="about_app_point">-></string>
+    <string name="about_app_description1">This is a web browser, where user can browse the contents on the webpage.</string>
+    <string name="about_app_description2">It requires Internet Connection. You can bookmark the webpage.</string>
+    <string name="about_app_description3">You can keep track of your history.</string>
+    <string name="about_app_description4">You can also download files from internet.</string>
+    <string name="about_app_description5">You can use the fullscreen feature to hide the status and title bar of the RAndroid Browser.</string>
+
+    <!-- Tab Fragment -->
+    <string name="textUrl">Enter Url</string>
+    <string name="textGo">Go</string>
+    <string name="textCancel">X</string>
+
+        <!-- Download Dialog Interface -->
+    <string name="dialog_title">Title :</string>
+    <string name="dialog_size">Size :</string>
+    <string name="dialog_buttonStart">Start</string>
+    <string name="dialog_buttonHide">Hide</string>
+    <string name="dialog_buttonCancel">Cancel</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_app_copyright">Developed By,\n Ravikanth, 11301431,\n Guided By Gaurav Kumar Tak</string>
+
+    <!-- Options Menu -->
+    <string name="clear_bookmarks_or_history">Clear All</string>
+
+</resources>

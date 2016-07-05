@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gridViewImageName">
+        <item>ic_action_new</item>
+        <item>ic_action_cancel_orignal</item>
+        <item>ic_action_refresh</item>
+        <item>ic_action_important</item>
+        <item>ic_action_time</item>
+        <item>ic_action_settings</item>
+        <item>ic_action_about</item>
+        <item>ic_exit</item>
+        
+    </string-array>
+    
+    <string-array name="gridViewImageText">
+        <item>New Tab</item>
+        <item>Close Tab</item>
+        <item>Refresh</item>
+        <item>Bookmarks</item>
+        <item>History</item>
+        <item>Settings</item>
+        <item>About</item>
+        <item>Exit</item>
+        
+    </string-array>
+    
+
+</resources>

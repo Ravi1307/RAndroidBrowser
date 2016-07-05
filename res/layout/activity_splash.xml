@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/splash_app_icon"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:padding="20sp"
+        android:layout_marginTop="40sp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/splash_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/brown"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/splash_app_copyright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/splash_app_name"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="@string/splash_app_copyright"
+            android:textColor="@color/brown"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <ProgressBar
+            android:id="@+id/splash_progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15sp"
+            android:max="100"
+            android:progress="0" />
+    </RelativeLayout>
+
+</LinearLayout>

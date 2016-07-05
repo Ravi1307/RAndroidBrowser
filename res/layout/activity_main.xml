@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey" >
+
+        <RelativeLayout
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/brown" />
+
+        <RelativeLayout
+            android:id="@+id/action_active_tabs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/image_action_active_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_action_active_tabs" />
+
+            <TextView
+                android:id="@+id/num_action_active_tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/brown" />
+
+        <ImageView
+            android:id="@+id/image_action_full_screen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_action_full_screen" />
+
+        <RelativeLayout
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/brown" />
+
+        <ImageView
+            android:id="@+id/image_action_view_as_grid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_action_view_as_grid" />
+
+        <RelativeLayout
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@color/brown" />
+    </LinearLayout>
+
+</RelativeLayout>

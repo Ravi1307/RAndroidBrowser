@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30sp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginStart="10sp" >
+
+            <ImageView
+                android:id="@+id/about_app_icon"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/about_app_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_icon"
+                android:layout_marginTop="30sp"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/brown"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/about_app_title_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_name"
+                android:layout_marginTop="30sp"
+                android:text="@string/about_app_title_description"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/about_app_point1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_title_description"
+                android:layout_marginTop="20sp"
+                android:text="@string/about_app_point"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/about_app_description1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_title_description"
+                android:layout_marginEnd="10sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/about_app_description1"
+                android:textColor="@color/brown"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/about_app_point2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_description1"
+                android:layout_marginTop="10sp"
+                android:text="@string/about_app_point"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/about_app_description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_description1"
+                android:layout_marginEnd="10sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/about_app_description2"
+                android:textColor="@color/brown"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/about_app_point3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_description2"
+                android:layout_marginTop="10sp"
+                android:text="@string/about_app_point"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/about_app_description3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_description2"
+                android:layout_marginEnd="10sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/about_app_description3"
+                android:textColor="@color/brown"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/about_app_point4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_description3"
+                android:layout_marginTop="10sp"
+                android:text="@string/about_app_point"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/about_app_description4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_description3"
+                android:layout_marginEnd="10sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/about_app_description4"
+                android:textColor="@color/brown"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/about_app_point5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_description4"
+                android:layout_marginTop="10sp"
+                android:text="@string/about_app_point"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/about_app_description5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_app_description4"
+                android:layout_marginEnd="10sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/about_app_description5"
+                android:textColor="@color/brown"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/about_app_copyright"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp"
+        android:gravity="center"
+        android:text="@string/about_app_copyright"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
